@@ -1,8 +1,5 @@
 var express = require('express');
 var router = express.Router();
-
-
-
 /* GET home page. */
 router.get('/', function(req, res, next) {
     var ran=Math.random();
@@ -17,8 +14,6 @@ router.get('/', function(req, res, next) {
    sol3: `${ran} is ${Math.cbrt(ran)}`
 }
   );
- 
-
 });
 
 module.exports = router;
